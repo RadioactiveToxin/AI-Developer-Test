@@ -111,6 +111,7 @@ You can switch using query parameters or natural language keywords.
 • Categories in queries are matched case-insensitively against known product categories, 
 
 • with a few keyword-based fallbacks (e.g., “shoes” to Footwear).
-• No external AI API keys (e.g., OpenAI) are used-
-  the search is entirely local and deterministic.
+
+• No external AI API keys (e.g., OpenAI) are used-the search is entirely local and deterministic.
+
 • This is a development setup using Flask’s built-in server.
