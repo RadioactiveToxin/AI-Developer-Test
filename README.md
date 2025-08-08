@@ -3,6 +3,7 @@ technical assessment for Hustlr Staffing Services
 
 ### 1. How to Run the App
 Prerequisites:
+
 • Python 3.8+ installed
 
 • pip package manager
@@ -72,26 +73,43 @@ You can switch using query parameters or natural language keywords.
 • Multiple filters + cheap mode: http://127.0.0.1:5000/search?q=wireless+headphones+under+$200+cheapest
 
 2. AI Feature Chosen
+
 • Smart Product Search (NLP)
+
 • Uses natural language processing to parse user queries for:
+
 • Price ranges (e.g., "under $100", "between $50 and $150")
+
 • Minimum rating (e.g., "4 stars", "best rated")
+
 • Category detection (e.g., "running shoes", "headphones")
+
 • Keywords for fuzzy matching
+
 • Allows dynamic ranking mode Switching:
+
   • Balanced (default/relevance + rating + price): ?mode=balanced
+
   • Highest rated/Rating-focused: ?mode=rating or include keywords like “best rated”
+
   • Cheapest/Price-focused ("cheap mode"): ?mode=cheap or include keywords like “cheapest”
 
 3.Tools/Libraries Used
+  
   • Flask: lightweight Python web framework for building the API
+  
   • RapidFuzz: high-performance fuzzy string matching for text relevance scoring
+
   • Python Standard Library-json, re for data loading and regex parsing
 
 4.Notable Assumptions
+
 • Ratings are on a 0-5 scale.
+
 • Price is stored as a numeric float or integer.
+
 • Categories in queries are matched case-insensitively against known product categories, 
+
 • with a few keyword-based fallbacks (e.g., “shoes” to Footwear).
 • No external AI API keys (e.g., OpenAI) are used-
   the search is entirely local and deterministic.
