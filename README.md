@@ -1,7 +1,7 @@
 # AI-Developer-Test- Radioactive Toxin
 technical assessment for Hustlr Staffing Services
 
-1. How to Run the App
+### 1. How to Run the App
 Prerequisites:
 • Python 3.8+ installed
 • pip package manager
