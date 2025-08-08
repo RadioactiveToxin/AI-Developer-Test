@@ -4,21 +4,28 @@ technical assessment for Hustlr Staffing Services
 ### 1. How to Run the App
 Prerequisites:
 • Python 3.8+ installed
+
 • pip package manager
+
 • Recommended: use a virtual environment to isolate dependencies
 
 Steps:
 • Clone or place the project folder on your machine.
+
 • Open a terminal (or PyCharm terminal) in the project folder.
+
 • Create and activate a virtual environment:
+
   • "python -m venv .venv"
+  
   • ".venv\Scripts\Activate" # Activate (Windows PowerShell)
+  
   • "source .venv/bin/activate" # Activate (macOS/Linux)
 
-• Install dependencies:
-  • pip install flask rapidfuzz
+• Install dependencies: pip install flask rapidfuzz
 
 • Run the application: python app.py
+
 • The app will start on: http://127.0.0.1:5000/
 
 Testing the app:
