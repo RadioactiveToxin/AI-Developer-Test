@@ -1,7 +1,9 @@
 # AI-Developer-Test- Radioactive Toxin
+
 technical assessment for Hustlr Staffing Services
 
 ### 1. How to Run the App
+
 Prerequisites:
 
 • Python 3.8+ installed
@@ -11,6 +13,7 @@ Prerequisites:
 • Recommended: use a virtual environment to isolate dependencies
 
 Steps:
+
 • Clone or place the project folder on your machine.
 
 • Open a terminal (or PyCharm terminal) in the project folder.
@@ -30,6 +33,7 @@ Steps:
 • The app will start on: http://127.0.0.1:5000/
 
 Testing the app:
+
 Once the app is running on http://127.0.0.1:5000/, open these URLs in your browser.
 
 Test examples:
