@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p001",
+    "name": "TrailRunner Pro Shoes",
+    "price": 89.99,
+    "category": "Footwear",
+    "rating": 4.4,
+    "description": "Lightweight running shoes designed for trail and city runs. Breathable mesh, cushioned sole."
+  },
+  {
+    "id": "p002",
+    "name": "Everyday Sneakers",
+    "price": 59.50,
+    "category": "Footwear",
+    "rating": 4.0,
+    "description": "Casual sneakers for everyday use. Comfortable insole, durable rubber sole."
+  },
+  {
+    "id": "p003",
+    "name": "NoiseBlock Headphones",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.6,
+    "description": "Over-ear noise cancelling headphones with 30h battery life and mic for calls."
+  },
+  {
+    "id": "p004",
+    "name": "Compact Coffee Maker",
+    "price": 45.00,
+    "category": "Home & Kitchen",
+    "rating": 3.9,
+    "description": "Single-cup coffee maker, quick brew, small footprint — perfect for small kitchens."
+  },
+  {
+    "id": "p005",
+    "name": "Insulated Hiking Backpack",
+    "price": 74.95,
+    "category": "Outdoor",
+    "rating": 4.2,
+    "description": "30L hiking backpack with insulated pocket for water and snacks."
+  },
+  {
+    "id": "p006",
+    "name": "Smart LED Desk Lamp",
+    "price": 34.99,
+    "category": "Electronics",
+    "rating": 4.1,
+    "description": "Adjustable temperature & brightness, USB charging port, touch controls."
+  },
+  {
+    "id": "p007",
+    "name": "Minimalist Wallet",
+    "price": 19.90,
+    "category": "Accessories",
+    "rating": 4.0,
+    "description": "Thin RFID-blocking wallet with space for 6 cards and some cash."
+  },
+  {
+    "id": "p008",
+    "name": "Waterproof Camping Tent (2P)",
+    "price": 149.00,
+    "category": "Outdoor",
+    "rating": 4.5,
+    "description": "Lightweight 2-person waterproof tent, easy setup, breathable fabric."
+  },
+  {
+    "id": "p009",
+    "name": "Modern Cookbooks Set",
+    "price": 29.99,
+    "category": "Books",
+    "rating": 4.3,
+    "description": "Collection of 3 modern cookbooks with quick recipes and meal prep tips."
+  },
+  {
+    "id": "p010",
+    "name": "Fitness Tracker Band",
+    "price": 49.99,
+    "category": "Electronics",
+    "rating": 3.8,
+    "description": "Basic fitness tracker: steps, sleep tracking, heart rate, smartphone notifications."
+  }
+]
